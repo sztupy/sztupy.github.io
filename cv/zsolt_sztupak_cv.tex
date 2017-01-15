@@ -1,0 +1,303 @@
+\documentclass[10pt,a4paper,roman]{moderncv}
+
+\moderncvstyle{classic}
+\moderncvcolor{green}
+\renewcommand{\familydefault}{\rmdefault}
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.82]{geometry}
+\usepackage{wrapfig}
+\setlength{\hintscolumnwidth}{4cm}
+
+\newcommand{\taglist}[1]{{\tiny \textbf{Technologies used:} #1}}
+
+% personal data
+\name{Zsolt Szilárd}{Sztupák}
+\address{Bromley, Kent, BR1, UK}
+\phone[mobile]{+44~777~66~26~115}
+\email{mail@sztupy.hu}
+\homepage{sztupy.hu}
+
+\collectionadd[github]{socials}{\protect\href{https://github.com/sztupy}{github.com/sztupy}}
+\collectionadd[linkedin]{socials}{\protect\href{http://linkedin.com/in/sztupy}{linkedin.com/in/sztupy}}
+\collectionadd[stackoverflow]{socials}{\protect\href{http://stackoverflow.com/story/sztupy}{stackoverflow.com/story/sztupy}}
+
+%\extrainfo{Born: 22-11-1985; Nationailty: Hungarian}
+%\photo[64pt][0.4pt]{picture}
+%\quote{Some quote}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Personal profile}
+I am a polyglot developer who likes challenges and is never afraid of diving into deep territories to get a better understanding of the big picture.
+
+During my career I have been involved with various frameworks and tools, and I have solved various technical and non-technical challenges ranging from debugging and reverse-engineering systems to hiring and managing a small team of developers.
+
+I am always keen to learn more every time, and I am always happy to pass on my knowledge to anyone who wants to learn more.
+
+\section{Experience}
+\cventry{\href{http://gamesys.co.uk}{Gamesys Ltd}}{Senior Java Developer, DevOps Engineer}{London}{UK}{2016-}{%
+\taglist{Java 8, ES6, React, Node.js, Python, Dropwizard, Ansible, Docker, CentOS, Kubernetes, Apigee, OAuth, JWT, GoCD}
+\hfill\break
+As a developer in the Platform team, my main responsibilities were:
+\begin{itemize}
+\item Helping and coaching other team and company members with issues related to the backend architecture
+\item Managing the internal staging environments including the puppet and ansible scripts that provision and manage them
+\item Developing changes for the microservice framework, build pipelines and the backend architecture
+\item Conducting phone and face to face interviews. Designing some of the interview exercises
+\item Developing changes related to security to the frontend applications
+\end{itemize}
+\hfill\break
+Some of my achievements:
+\begin{itemize}
+\item Upgrading the internal microservice framework to Java 8
+\item Upgrading the deployment scripts to Ansible 2
+\item Investigate kubernetes, and how we might be able to adapt it for our purpose
+\item Investigate the options, and implement a spike on how authentication should work between the backend, frontend and our patrons
+\end{itemize}
+}
+
+\hfill\break
+
+\cventry{\href{http://gamesys.co.uk}{Gamesys Ltd}}{Full Stack Developer}{London}{UK}{2013-2015}{%
+\taglist{Ruby, Ruby on Rails, Java, Dropwizard, Active Directory, DB2, MySQL, Docker, Puppet, Ansible, Neo4J}
+\hfill\break
+As a developer in the Member team, my main responsibilities were:
+\begin{itemize}
+\item Adding fixes and new features to the the internal customer support application built in Ruby on Rails
+\item Change and add new features to the backend applications written in Java
+\item Coaching other team and company members in Ruby and Ruby on Rails
+\item Helping other team and company members with issues related to Git, Ruby, Java and Docker
+\item Active member of the API Team to help create a standardised API for the backend services
+\end{itemize}
+\hfill\break
+Some of my achievements:
+\begin{itemize}
+\item Design and implement the two factor authentication support for member logins
+\item Upgrading the applications from Ruby 1.8 to 1.9 and 2.1
+\item Upgrading the applications from Rails 2.3 to 3.0 and 3.2
+\item Change the deployment of the application to a docker based deployment model
+\end{itemize}
+}
+
+\cventry{\href{http://cancellar.hu}{Cancellar Informatics LLP}}{Owner - IT Manager}{Budapest}{Hungary}{2010-2013}{%
+Owner of small umbrella company employing 3-5 people. Handling contacts with client, accounting and recruitment. Working for the following companies:
+\begin{itemize}
+\item BME-AutSoft Ltd. \hfill\break
+\taglist{Java, Linux, GSM/AT commands, Android SDK, Android NDK, Android platform, OpenCV}
+\begin{itemize}
+\item Main responsibilities:
+\begin{itemize}
+\item Acquiring low-level GSM engineering information from the radio firmwares of Samsung-made Android smartphones
+\item Android platform building for an i.mx5 based e-ink device.
+\item Changing the platform code to support the specialities of the e-ink display (like removing visual animations, or creating an e-ink friendly keyboard application)
+\item Creating applications that can recording voice calls and measure voice call quality
+\item Creating applications using OpenCV to process the image of the camera in real-time
+\end{itemize}
+\item Major achievements:
+\begin{itemize}
+\item Reverse-engineer the firmware of Samsung Galaxy S, so it could be used to record calls and measure voice quality
+\item Reverse-engineer the firmware of the i.mx5 e-ink device, to make it possible to change the firmware as required
+\end{itemize}
+\end{itemize}
+\item Famillio Investment Ltd. \hfill\break
+\taglist{PHP, Symfony, MySQL, JQuery, node.js, REST, SOAP, Facebook API, git}
+\begin{itemize}
+\item Main responsibilities:
+\begin{itemize}
+\item Creating and administering the PHP/Symfony based insurance broker web-site of the firm.
+\item Writing clients for various third-party web services
+\item Gathering user information using Facebook Graph API
+\item Creating reports based on user supplied data
+\item Creating and administering sister-sites
+\item Keeping the business logic up-to-date with the constant changing need of the insurance companies
+\item Keeping the always-changing interfaces with the insurance companies' web/services up-to-date
+\end{itemize}
+\item Major achievements:
+\begin{itemize}
+\item Designed and built the complete frontend site from ground up in only a few months
+\item Designed and built a DSL to easily manage the specific quote formulas of the insurance companies
+\end{itemize}
+\end{itemize}
+\item V-TÁV R\&D Ltd. \hfill\break
+\taglist{8051, ARM, NMEA, GSM/AT commands, Ruby on Rails, node.JS, PostgreSQL, Google Maps, OpenStreetMap}
+\begin{itemize}
+\item Main responsibilities:
+\begin{itemize}
+\item Programming 8051 and ARM based GPS devices
+\item Creating a new firmware for the devices, that fits the needs of the company
+\item Creating the web front-end of the product
+\end{itemize}
+\item Major achievements:
+\begin{itemize}
+\item Completely reverse-engineer the firmware of the demo devices
+\item Finding and fixing issues in the schematics of the original device
+\end{itemize}
+\end{itemize}
+\end{itemize}
+}
+
+\cventry{\href{http://nava.hu/english/nava/index.php}{National Audiovisual Archive -- Neumann Ltd.}}{Software engineer}{Budapest}{Hungary}{2008-2010}{\small%
+\taglist{Ruby, PHP, Java, Tamino XML Server, OAI-PMH, Dublin Core}
+\hfill\break
+Main responsibilities:
+\begin{itemize}
+\item Supervise the development of a new product made by another company
+\item Gathering requirements and writing specifications to the new product
+\item Creating scripts to download and display recent events that are probably important to the archive
+\item Creating apps to ease the archiving of the national radio stations
+\item Developing a MPEG-1 Layer II based audio cutter to be used by the archive
+\item Building various other XML based applications
+\end{itemize}
+\hfill\break
+Major achievements:
+\begin{itemize}
+\item Finding common issues with the workflow of the company and developing small in-house products, to ease some of the repetitive tasks occurring in the video archive
+\item Creating in-house patches for the old product, that didn't had any kind of APIs or ways to extend functionality
+\item Creating an app that would determine the exact time a show started on television
+\end{itemize}
+}
+
+\cventry{\href{http://honlap.eotvos.elte.hu/}{Eötvös József College}}{System Administrator}{Budapest}{Hungary}{2007-2009}{\small%
+\taglist{Linux, Windows Server, Active Directory, Kerberos, Ruby on Rails, Debian, Gentoo}
+\hfill\break
+Programming tasks:
+\begin{itemize}
+\item Developing the intranet site of the Eötvös József Collegium using Ruby on Rails
+\item integrating the site with Active Directory
+\end{itemize}
+\hfill\break
+System Administration tasks:
+\begin{itemize}
+\item Building and administering a Windows Server 2008, Gentoo Hardened Linux and Endian Firewall based system
+\item Solving their interoperability issues using Kerberos and LDAP
+\end{itemize}
+\hfill\break
+Major achievements:
+\begin{itemize}
+\item Re-cabled the whole site to use UTP CAT-6 cables
+\item Established full Wi-Fi coverage in the institute
+\end{itemize}
+}
+
+\cventry{\href{http://www.inf.elte.hu/}{Eötvös Loránd University}}{Undergraduate Teaching Assistant}{Budapest}{Hungary}{2006-2009}{%
+\begin{itemize}
+\item Undergraduate Teaching Assistant in the following courses for BSc Computer Science students:
+\begin{itemize}
+\item Introduction to Programming I, II (Formal verification based on Dijkstra's theorems)
+\item Compilers I, II (x86 assembly programming and introduction to formal languages)
+\item Operating Systems and Hardware Architecture
+\item Functional Programming I (Introduction to Haskell programming)
+\end{itemize}
+\item Helped writing one of the lecture books titled ``Introduction to Programming''
+\end{itemize}
+}
+
+\section{Personal Open Source Projects}
+
+\cventry{}{\href{http://magiclantern.wikia.com/wiki/Magic_Lantern_Firmware_Wiki}{Magic Lantern}}{}{}{2011-2013}{%
+Porting the firmware to Canon 60D; Adding lua and loadable binary plugins support \newline
+\taglist{ARM, C, Lua, Reverse Engineering}
+}
+
+\cventry{}{\href{https://github.com/sztupy/nhamlsense}{NHaml View Engine -- NHamlSense}}{}{}{2010}{%
+Collaborating on the NHaml View Engine for ASP.NET MVC, including adding IntelliSense support for the view engine \newline
+\taglist{C$\sharp$, F$\sharp$, CodeDom, ASP.NET MVC}
+}
+
+\cventry{}{\href{https://github.com/sztupy/shaml}{Shaml Architecture -- ASP.NET MVC for Mono}}{}{}{2010}{%
+Creating a version of ASP.NET MVC with NHibernate that works under Mono environments\newline
+\taglist{C$\sharp$, ASP.NET MVC, Mono, NHibernate, Fluent NHibernate}
+}
+
+\cventry{}{\href{https://github.com/sztupy/luadec51}{Lua 5.1 Decompiler}}{}{}{2009-2015}{%
+A decompiler and disassembler for compiled Lua 5.1 scripts \newline
+\taglist{Lua, C, Windows Mobile}
+}
+
+\section{Education}
+
+\cvitem{MSc}{\small%
+\textbf{\href{https://www.vik.bme.hu/english/}{Budapest University of Technology and Economics}}, Software Engineering, Budapest, Hungary, 2012-2014
+}
+
+\cvitem{BSc}{\small%
+\textbf{\href{http://www.inf.elte.hu/english/Lapok/default.aspx}{Eötvös Loránd University}}, Computer Science, Budapest, Hungary, 2004-2009 \newline
+BSc in Computer Science -- 264 ECTS -- Excellent grade
+}
+
+\section{Other projects}
+
+\cvitem[-1em]{University Projects}{\small%
+\begin{itemize}
+\item \textbf{\href{http://amorg.aut.bme.hu/home}{AMORG}} Member of the Applied Mobile Research Group. Involved in projects including Android platform building and OpenCV based image processing
+\item \textbf{\href{http://hypereidoc.elte.hu}{HypereiDoc}} Creating a collaborative document-editing system, to be used by phylologists to digitalise ancient greek texts.
+\end{itemize}
+}
+
+\cvitem[-1em]{Android Projects}{\small%
+\begin{itemize}
+\item \textbf{\href{https://play.google.com/store/apps/details?id=hu.sztupy.android.usbhostcontroller}{USB Host Controller}} Application for managing USB devices
+\item \textbf{\href{https://play.google.com/store/apps/details?id=hu.sztupy.android.allwinnermod}{AllwinnerMod}} Application for managing Allwinner A10 based tables
+\item \textbf{\href{http://forum.xda-developers.com/showthread.php?t=1450298}{USB host mode kernel}} for Samsung Galaxy S and variants
+\item \textbf{\href{http://forum.xda-developers.com/showthread.php?t=1490886}{Android kernel and system building}} for Allwinner A10 tablets
+\end{itemize}
+}
+
+\cvitem[-1em]{Open Source Projects}{\small%
+\begin{itemize}
+\item \textbf{\href{https://github.com/sztupy/adbputty}{ADB PuTTY}} PuTTY enhanced with the ability to connect to Android devices
+\item \textbf{\href{https://github.com/sztupy/ianout}{IanOut}} \emph{2000-2005} Developing a Visual C++ and SDL based RPG game
+\end{itemize}
+}
+
+\newpage
+
+\section{Others}
+
+\cvitem[-1em]{Conference talks, lectures}{\small%
+\begin{itemize}
+\item \textbf{Gamesys Ltd.}, London, UK, \emph{2016} \newline
+Your own personal cloud -- Brown-bag session on setting up a cloud environment on CoreOS with Terraform and Kubernetes
+\item \textbf{Babes-Bolyai University}, Cluj-Napoca, Romania, \emph{2007} \newline
+Visiting lecturer on \href{http://www.cs.ubbcluj.ro/~bittologatok/plakat2007_dec5-6.pdf}{Designing and programming embedded systems}
+\item \textbf{National Students' Research Conference} \emph{2008-2009}
+ \begin{itemize}
+ \item \href{http://www.inf.unideb.hu/otdk2009/harmadikhely.html}{Digitalizing, editing and publishing ancient greek texts} (\emph{national 3$^{rd}$ place in 2009})
+ \item \href{http://www.inf.unideb.hu/otdk2009/masodikhely.html}{Managing layered files using XML} (\emph{national 2$^{nd}$ place in 2009})
+ \item ORM based methods to link different types of databases (\emph{local 2$^{nd}$ place in 2009})
+ \end{itemize}
+\end{itemize}
+}
+
+\cvitem[-1em]{IT interests}{\small%
+\begin{itemize}
+\item \textbf{Programming languages} Ruby, JavaScript, Java 8, various functional languages
+\item \textbf{Web-development} Ruby on Rails
+\item \textbf{Mobile-development} Android
+\item \textbf{Operating systems} Ubuntu linux, CentOS, CoreOS
+\item \textbf{Information systems} SQL: MySQL, PostgreSQL, DB2
+\item \textbf{DevOps} Ansible, Docker, Puppet, Kubernetes
+\item \textbf{Embedded systems} Programming PIC, 8051 and ARM based microprocessors
+\item \textbf{Others} \LaTeX
+\item \textbf{Competitions}
+ \begin{itemize}
+  \item ACM (participant in CERC \emph{2006}, \emph{2008})
+  \item Participant of Google Code Jam, and Facebook Hacker Cup competitions each year
+  \item Participant of the finals of the $11^{th}$ and $13^{th}$ \href{http://ch24.org/}{Challenge 24} \emph{2011, 2013}
+  \item $1^{st}$ place in the \href{http://www.ericssonbajnoksag.hu/bajnoksag}{National Ericsson C++ Programming Contest} \emph{2012}
+  \item $2^{nd}$ place in the \href{http://www.javachallenge.hu/}{National BankTech Java Challenge} \emph{2014}
+ \end{itemize}
+\end{itemize}
+}
+
+\cvitem[-1em]{Others}{\small%
+\begin{itemize}
+\item \textbf{Language skills}: English (C1), German (B2), French (A1), Hungarian (native language)
+\item \textbf{Driving Licence}: Categories A (since 2011) and B (since 2003)
+\end{itemize}
+}
+
+\end{document}

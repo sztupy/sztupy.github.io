@@ -2,3 +2,4 @@ cv/*.aux
 cv/*.log
 cv/*.out
 assets/**/*.map
+.sass-cache

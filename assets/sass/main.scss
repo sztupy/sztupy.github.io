@@ -218,6 +218,12 @@
 		}
 	}
 
+	section {
+		iframe.youtube {
+			max-width: 100%;
+		}
+	}
+
 	header {
 		p {
 			color: _palette(fg-light);

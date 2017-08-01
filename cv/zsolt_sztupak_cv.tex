@@ -1,28 +1,48 @@
 \documentclass[10pt,a4paper,roman]{moderncv}
 
-\moderncvstyle{classic}
+\moderncvstyle[right]{classic}
 \moderncvcolor{green}
-\renewcommand{\familydefault}{\rmdefault}
+
+\definecolor{color0}{rgb}{0,0,0}% black
+\definecolor{color1}{rgb}{0,0.39215,0}% green
+\definecolor{color2}{rgb}{0.35,0.35,0.35}% dark grey
+
+\usepackage{multicol}
+\usepackage{fontawesome}
+\usepackage[abspath]{currfile}
+
 \nopagenumbers{}
-\usepackage[utf8]{inputenc}
-\usepackage[scale=0.82]{geometry}
-\usepackage{wrapfig}
-\setlength{\hintscolumnwidth}{4cm}
+\usepackage[utf8]{luainputenc}
+
+\renewcommand{\familydefault}{\rmdefault}
+\renewcommand*{\addresssymbol}{{\small\faGlobe}~}
+\renewcommand*{\mobilephonesymbol}{{\small\faPhoneSquare}~}
+\renewcommand*{\emailsymbol}{{\small\faEnvelopeSquare}~}
+\newcommand*{\homepagesocialsymbol}{{\small\faExternalLinkSquare}~}
+\renewcommand*{\linkedinsocialsymbol}{{\small\faLinkedinSquare}~}
+\renewcommand*{\twittersocialsymbol}{{\small\faTwitterSquare}~}
+\renewcommand*{\githubsocialsymbol}{{\small\faGithubSquare}~}
+\newcommand*{\vimeosocialsymbol}{{\small\faVimeoSquare}~}
+\newcommand*{\stackoverflowsocialsymbol}{{\small\rlap\faSquare\color{white}\scriptsize\raisebox{1pt}{\hspace{1pt}\faStackOverflow}}~}
 
 \newcommand{\taglist}[1]{{\tiny \textbf{Technologies used:} #1}}
+
+\usepackage[scale=0.82]{geometry}
+\setlength{\hintscolumnwidth}{4cm}
 
 % personal data
 \name{Zsolt Szilárd}{Sztupák}
 \address{Bromley, Kent, BR1, UK}
 \phone[mobile]{+44~777~66~26~115}
 \email{mail@sztupy.hu}
-\homepage{sztupy.hu}
 
+\title{Full Stack Developer / Platform Engineer}
+
+\collectionadd[homepage]{socials}{\protect\httplink[http://sztupy.hu]{sztupy.hu}}
 \collectionadd[github]{socials}{\protect\href{https://github.com/sztupy}{github.com/sztupy}}
 \collectionadd[linkedin]{socials}{\protect\href{http://linkedin.com/in/sztupy}{linkedin.com/in/sztupy}}
 \collectionadd[stackoverflow]{socials}{\protect\href{http://stackoverflow.com/story/sztupy}{stackoverflow.com/story/sztupy}}
 
-%\extrainfo{Born: 22-11-1985; Nationailty: Hungarian}
 %\photo[64pt][0.4pt]{picture}
 %\quote{Some quote}
 
@@ -33,20 +53,20 @@
 \section{Personal profile}
 I am a polyglot developer who likes challenges and is never afraid of diving into deep territories to get a better understanding of the big picture.
 
-During my career I have been involved with various frameworks and tools, and I have solved various technical and non-technical challenges ranging from debugging and reverse-engineering systems to hiring and managing a small team of developers.
+During my career I have been involved with various frameworks and tools, and I have solved various technical and non-technical challenges ranging from debugging and reverse-engineering systems to hiring and managing a small team of developers. I am always keen to learn more every time, and I am always happy to pass on my knowledge to anyone who wishes to learn more.
 
-I am always keen to learn more every time, and I am always happy to pass on my knowledge to anyone who wants to learn more.
+I am currently looking to work remotely in a Java or Ruby based development environment, as backend developer or platform engineer.
 
 \section{Experience}
-\cventry{\href{http://gamesys.co.uk}{Gamesys Ltd}}{Senior Java Developer, DevOps Engineer}{London}{UK}{2016-}{%
-\taglist{Java 8, ES6, React, Node.js, Python, Dropwizard, Ansible, Docker, CentOS, Kubernetes, Apigee, OAuth, JWT, GoCD}
+\cventry{\href{http://gamesys.co.uk}{Gamesys Ltd}}{Senior Software Engineer - Java, Ruby, DevOps}{London}{UK}{2016-}{%
+\taglist{Java 8, ES6, React, Node.js, Python, Dropwizard, Ansible, Docker, CentOS, Kubernetes, Apigee, OAuth, JWT, GoCD, Ruby, Ruby on Rails}
 \hfill\break
 As a developer in the Platform team, my main responsibilities were:
 \begin{itemize}
 \item Helping and coaching other team and company members with issues related to the backend architecture
 \item Managing the internal staging environments including the puppet and ansible scripts that provision and manage them
 \item Developing changes for the microservice framework, build pipelines and the backend architecture
-\item Conducting phone and face to face interviews. Designing some of the interview exercises
+\item Conducting phone and face to face interviews for Java and Ruby candidates. Designing some of the interview exercises
 \item Developing changes related to security to the frontend applications
 \end{itemize}
 \hfill\break
@@ -259,6 +279,12 @@ BSc in Computer Science -- 264 ECTS -- Excellent grade
 
 \cvitem[-1em]{Conference talks, lectures}{\small%
 \begin{itemize}
+\item \textbf{National DevOps Conference}, London, UK, \emph{2017} \newline
+\href{http://www.devopsevent.com/zsolt-sz-sztupak/}{Gamesys: The Road Taken} -- Talk about introducing DevOps practices in a large company with lots of legacy projects
+\item \textbf{Socrates UK}, Surrey, UK, \emph{2017} \newline
+Participant in the unconcference proposing two session around introducing DevOps practices and microservices inside companies
+\item \textbf{Jellyfish meetup}, London, UK, \emph{2017} \newline
+\href{https://www.youtube.com/watch?v=wuBHNp87Sgk}{Containers} -- Talk about issues when introducing docker as a deployment tool
 \item \textbf{Gamesys Ltd.}, London, UK, \emph{2016} \newline
 Your own personal cloud -- Brown-bag session on setting up a cloud environment on CoreOS with Terraform and Kubernetes
 \item \textbf{Babes-Bolyai University}, Cluj-Napoca, Romania, \emph{2007} \newline
@@ -275,13 +301,13 @@ Visiting lecturer on \href{http://www.cs.ubbcluj.ro/~bittologatok/plakat2007_dec
 \cvitem[-1em]{IT interests}{\small%
 \begin{itemize}
 \item \textbf{Programming languages} Ruby, JavaScript, Java 8, various functional languages
-\item \textbf{Web-development} Ruby on Rails
+\item \textbf{Web-development} Ruby on Rails, React.JS
 \item \textbf{Mobile-development} Android
 \item \textbf{Operating systems} Ubuntu linux, CentOS, CoreOS
 \item \textbf{Information systems} SQL: MySQL, PostgreSQL, DB2
 \item \textbf{DevOps} Ansible, Docker, Puppet, Kubernetes
 \item \textbf{Embedded systems} Programming PIC, 8051 and ARM based microprocessors
-\item \textbf{Others} \LaTeX, 3D printing, Machine learning
+\item \textbf{Others} \LaTeX
 \item \textbf{Competitions}
  \begin{itemize}
   \item ACM (participant in CERC \emph{2006}, \emph{2008})
@@ -295,7 +321,7 @@ Visiting lecturer on \href{http://www.cs.ubbcluj.ro/~bittologatok/plakat2007_dec
 
 \cvitem[-1em]{Others}{\small%
 \begin{itemize}
-\item \textbf{Language skills}: English (C1), German (B2), French (A1), Hungarian (native language)
+\item \textbf{Language skills}: English (C1), German (B2), French (A1), Swedish (A1), Hungarian (native language)
 \item \textbf{Driving Licence}: Categories A (since 2011) and B (since 2003)
 \end{itemize}
 }

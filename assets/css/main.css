@@ -1,4 +1,6 @@
-@import url("font-awesome.min.css");
+@import url("fontawesome.min.css");
+@import url("brands.min.css");
+@import url("solid.min.css");
 @import url("https://fonts.googleapis.com/css?family=Audiowide|Lato:400,400italic");
 /*
 	Strata by HTML5 UP
@@ -1403,7 +1405,7 @@ textarea {
   .select-wrapper:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
+    font-family: "Font Awesome 6 Free";
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -1458,7 +1460,7 @@ input[type="radio"] {
     input[type="radio"] + label:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
+      font-family: "Font Awesome 6 Free";
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -1535,12 +1537,20 @@ input[type="radio"] + label:before {
   .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
+    font-family: "Font Awesome 6 Free";
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
   .icon > .label {
     display: none; }
+
+.brand:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important; }
 
 /* Image */
 .image {
@@ -2040,7 +2050,7 @@ input[type="button"],
     .poptrox-popup .loader:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
+      font-family: "Font Awesome 6 Free";
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -2077,7 +2087,7 @@ input[type="button"],
     .poptrox-popup .nav-previous:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
+      font-family: "Font Awesome 6 Free";
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -2122,7 +2132,7 @@ input[type="button"],
     .poptrox-popup .closer:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
+      font-family: "Font Awesome 6 Free";
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }

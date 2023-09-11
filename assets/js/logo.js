@@ -8,7 +8,7 @@ head.appendChild(link);
 var body = document.body;
 var div = document.createElement("div");
 div.id = "zssr-logo";
-div.innerHTML = '<a href="https://zsolt.raven.scot/projects"></a>';
+div.innerHTML = '<a href="https://sztupy.hu/projects"></a>';
 if (body.firstChild) {
   body.insertBefore(div, body.firstChild);
 } else {

@@ -1,5 +1,5 @@
-cv/*.aux
-cv/*.log
-cv/*.out
+*.aux
+*.log
+*.out
 assets/**/*.map
 .sass-cache
